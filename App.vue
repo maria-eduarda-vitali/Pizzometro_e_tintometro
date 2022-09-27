@@ -58,15 +58,15 @@
 
      this.litro = this.area / 6;
 
-     this.latas = parseInt((this.litro) / 3.6);
+     this.latas = parseInt((this.litro) / 18);
 
-     quantaTintaFalta = parseInt(this.latas) % 3.6;
+     quantaTintaFalta = parseInt(this.latas) % 18;
 
         if(quantaTintaFalta > 0){
           this.latas++
         }
 
-      this.preco = this.latas * 25.00;
+      this.preco = this.latas * 80.00;
       }
 
   }
